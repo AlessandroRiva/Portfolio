@@ -12,7 +12,7 @@ body {
 }
 
 .background-section-1 {
-    background-image: url(/images/background-image-mobile.jpg);
+    background-image: url(images/background-image-mobile.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ svg g path:hover {
 }
 
 .background-section-3 {
-    background-image: url(/images/background-image-contact-mobile.jpg);
+    background-image: url(images/background-image-contact-mobile.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
