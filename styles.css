@@ -332,6 +332,7 @@ a.social {
       .background-section-3 {
         height: 100vh;
         background-image: url(images/background-image-contact-desktop.jpg);
+        background-position: 10% 10%;
       }
 
       .title-contact {
