@@ -118,6 +118,8 @@ a.social {
     padding: 10px 0;
     border-radius: 10px;
     margin-bottom: 30px;
+    max-width: 780px;
+    margin: auto;
 }
 
 .project h2 {
@@ -201,6 +203,14 @@ a.social {
 
 .social-media-bottom {
     padding-bottom: 50px;
+}
+
+.button {
+    transition: all 0.5s;
+}
+
+.button:hover {
+    filter: brightness(85%);
 }
 
 
