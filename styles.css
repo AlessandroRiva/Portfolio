@@ -143,7 +143,8 @@ a.social {
     letter-spacing: 1px;
 }
 
-.project a {
+.v-code, 
+.v-project {
     display: block;
     width: 70%;
     margin: auto;
@@ -210,7 +211,7 @@ a.social {
 }
 
 .button:hover {
-    filter: brightness(85%);
+    opacity: 0.7;
 }
 
 
@@ -322,7 +323,8 @@ a.social {
           justify-content: center;
       }
 
-      .project a {
+      .v-code,
+      .v-project {
           width: 150px;
           margin: 10px;
       }
