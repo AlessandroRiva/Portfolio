@@ -244,7 +244,61 @@ a.social {
     a.social {
         width: 55px;
         height: 55px;
-        margin:5px;
-
+        margin: 5px;
     }
+
+    .arrows-scroll {
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .arrows-scroll:hover {
+        opacity: 0.6;
+    }
+
+    nav a:hover {
+        color: rgb(32, 32, 32);
+    }
+
+    nav a {
+        position: relative;
+    }
+
+    nav a:after {
+        content: '';
+        display: inline;
+        border-top: 2px solid #ffba00;
+        width: 0;
+        position: absolute;
+        left: 0;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+      }
+      
+      nav a:hover:after { 
+        width: 100%; 
+      }
+
+      .project p {
+          margin: 0;
+          width: 50%;
+      }
+
+      .project img {
+          width: 30%;
+      }
+
+      .project-description {
+          text-align: center;
+          margin: auto;
+      }
+
+      .container-project {
+          display: flex;
+          justify-content: space-between;
+      }
+
+
+
+
 }
