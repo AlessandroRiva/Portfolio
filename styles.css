@@ -16,6 +16,7 @@ body {
 }
 
 .background-section-1 {
+    height: 100vh;
     background-image: url(images/background-image-mobile.jpg);
     background-size: cover;
     background-position: center;
@@ -280,12 +281,13 @@ a.social {
       }
 
       .project p {
-          margin: 0;
-          width: 50%;
+          width: 90%;
+          font-size: 1rem;
       }
 
       .project img {
-          width: 30%;
+          width: 100%;
+          overflow: hidden;
       }
 
       .project-description {
@@ -294,9 +296,41 @@ a.social {
       }
 
       .container-project {
+          width: 80%;
+          margin: auto;
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
       }
+
+      .container-buttons {
+          display: flex;
+          justify-content: center;
+      }
+
+      .project a {
+          width: 150px;
+          margin: 10px;
+      }
+
+      .background-section-3 {
+        height: 100vh;
+        background-image: url(images/background-image-contact-desktop.jpg);
+      }
+
+      .title-contact {
+          margin-bottom: 50px;
+      }
+
+      .form-control {
+          padding: 10px 130px 10px 10px;
+      }
+
+      #message {
+          padding-bottom: 200px;
+          margin-bottom: 40px;
+      }
+
+
 
 
 
