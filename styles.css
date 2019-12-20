@@ -141,6 +141,7 @@ a.social {
 
 .preview-project:hover {
     transform: scale(1.2);
+    filter: brightness(80%);
 }
 
 .project p {
