@@ -132,6 +132,15 @@ a.social {
 .project img {
     width: 60%;
     margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.preview-project:hover {
+    transform: scale(1.2);
 }
 
 .project p {
