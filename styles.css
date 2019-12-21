@@ -277,6 +277,7 @@ a.social {
     .arrows-scroll {
         cursor: pointer;
         transition: all 0.3s;
+        margin-top: 40px;
     }
 
     .arrows-scroll:hover {
