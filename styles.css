@@ -369,10 +369,21 @@ a.social {
           padding-bottom: 200px;
           margin-bottom: 40px;
       }
+}
 
+@media (min-width: 2000px) {
+    .title-work {
+        margin-bottom: 40px;
+    }
+    .container-work-desktop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        max-width: 1650px;
+    }
 
-
-
-
-
+    .project {
+        width: 50%;
+    }
 }
