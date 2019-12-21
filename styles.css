@@ -379,11 +379,13 @@ a.social {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: center;
         margin: auto;
         max-width: 1650px;
     }
 
     .project {
         width: 50%;
+        height: 270px;
     }
 }
