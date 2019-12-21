@@ -229,6 +229,11 @@ a.social {
     opacity: 0.7;
 }
 
+.social-media-bottom {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
 
 @media (min-width: 768px) {
     .background-section-1 {
@@ -349,6 +354,7 @@ a.social {
         height: 100vh;
         background-image: url(images/background-image-contact-desktop.jpg);
         background-position: 10% 10%;
+        background-size: cover;
       }
 
       .title-contact {
