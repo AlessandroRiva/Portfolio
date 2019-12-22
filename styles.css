@@ -237,12 +237,6 @@ a.social {
 @media (min-width: 460px) {
     .background-section-1 {
         background-image: url(images/background-image-desktop.jpg);
-    }
-}
-
-@media (min-width: 768px) {
-    .background-section-1 {
-        background-image: url(images/background-image-desktop.jpg);
         background-position: 35% 50%;
         background-size: cover;
     }
