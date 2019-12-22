@@ -66,7 +66,7 @@ h2 {
 }
 
 h1 {
-    margin-top: 120px;
+    margin-top: 90px;
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -101,7 +101,7 @@ a.social {
 }
 
 .arrows-scroll {
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 150px;;
 }
 
@@ -234,6 +234,12 @@ a.social {
     padding-bottom: 30px;
 }
 
+@media (min-width: 460px) {
+    .background-section-1 {
+        background-image: url(images/background-image-desktop.jpg);
+    }
+}
+
 
 @media (min-width: 768px) {
     .background-section-1 {
@@ -264,7 +270,7 @@ a.social {
     }
 
     h1 {
-        margin-top: 400px;
+        margin-top: 240px;
         font-size: 1.5rem;
     }
 
@@ -282,7 +288,7 @@ a.social {
     .arrows-scroll {
         cursor: pointer;
         transition: all 0.3s;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .arrows-scroll:hover {
