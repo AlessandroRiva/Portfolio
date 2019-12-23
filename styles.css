@@ -105,6 +105,22 @@ a.social {
     margin-bottom: 150px;;
 }
 
+.arrows-animation {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    animation: arrowsAnim 0.5s infinite alternate;
+}
+
+@keyframes arrowsAnim {
+    from {
+        margin-top: 20px;
+    }
+    to {
+        margin-top: 40px;
+        opacity: 0.5;
+    }
+}
+
 .work {
     background-color: rgb(232, 232, 234);
     padding-bottom: 30px;
@@ -250,7 +266,7 @@ a.social {
     .cursor {
         width: 20px;
         height: 20px;
-        border: 1px solid white;
+        border: 1px solid rgb(52, 52, 52);
         border-radius: 50%;
         position: absolute;
         transition-duration: 200ms;
@@ -264,9 +280,9 @@ a.social {
         width: 20px;
         height: 20px;
         position: absolute;
-        border: 8px solid gray;
+        border: 8px solid #ffba00;
         border-radius: 50%;
-        opacity: .5;
+        opacity: .4;
         top: -8px;
         left: -8px;
         animation: cursorAnim2 .5s infinite alternate;
@@ -305,7 +321,9 @@ a.social {
     
     .expand {
         animation: cursorAnim3 .5s forwards;
-        border: 1px solid red;
+        border: 1px solid #ffba00;
+        opacity: 0.5;
+        /* border-radius: 50%; */
     }
     
     .background-section-1 {
