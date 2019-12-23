@@ -16,7 +16,7 @@ body {
 }
 
 .background-section-1 {
-    height: 100vh;
+    height: 700px;
     background-image: url(images/background-image-mobile.jpg);
     background-size: cover;
     background-position: center;
@@ -66,7 +66,7 @@ h2 {
 }
 
 h1 {
-    margin-top: 12vh;
+    margin-top: 65px;
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -251,13 +251,14 @@ a.social {
     padding-bottom: 30px;
 }
 
+footer {
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+}
+
 @media (min-width: 460px) {
     .background-section-1 {
         background-image: url(images/background-image-desktop.jpg);
-    }
-
-    h1 {
-        margin-top: 20vh;
     }
 }
 
@@ -327,10 +328,10 @@ a.social {
     }
     
     .background-section-1 {
+        height: 885px;
         background-image: url(images/background-image-desktop.jpg);
         background-position: 35% 50%;
         background-size: cover;
-        height: 100vh;
         overflow: hidden;
     }
     
@@ -356,8 +357,8 @@ a.social {
     }
 
     h1 {
-        margin-top: 40vh;
         font-size: 1.5rem;
+        margin-top: 360px;
     }
 
     h2 {
