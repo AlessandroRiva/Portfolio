@@ -125,6 +125,7 @@ a.social {
     max-width: 780px;
     margin: auto;
     margin-bottom: 30px;
+    box-shadow: 0 5px 5px 0 rgba(208, 208, 208, 0.5), 0 0 0 1px #E6ECF8;
 }
 
 .project h2 {
@@ -325,7 +326,6 @@ a.social {
 
       .project {
           margin-bottom: 50px;
-          box-shadow: 0 5px 5px 0 rgba(208, 208, 208, 0.5), 0 0 0 1px #E6ECF8;
       }
 
       .project p {
