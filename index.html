@@ -156,12 +156,12 @@
                 <div class="container">
                     <h1 class="title-contact"><u>Contact</u></h1>
                     <form action="https://www.enformed.io/4m46yacb" method="POST" >
-                    <input type="text" name="Name" class="form-control" placeholder="Name">
-                    <input type="hidden" name="*reply" value="email">
-                    <input type="hidden" name="*honeypot">
-                    <input type="email" name="email" class="form-control" placeholder="Email">
-                    <textarea name="message" id="message" class="form-control" placeholder="Message"></textarea>
-                    <button type="submit" class="submit button">Send</button>
+                        <input type="text" name="Name" class="form-control" placeholder="Name" pattern="[a-zA-Z][a-zA-Z ]{2,}" required>
+                        <input type="hidden" name="*reply" value="email" required>
+                        <input type="hidden" name="*honeypot">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                        <button type="submit" class="submit button">Send</button>
                     </form>
                     <div class="social-media social-media-bottom">
                         <a href="https://github.com/AlessandroRiva" target="_blank" class="social github">
