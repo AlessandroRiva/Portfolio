@@ -131,7 +131,7 @@ a.social {
     text-transform: uppercase;
     margin-top: 0;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .project {
@@ -147,18 +147,14 @@ a.social {
 .project h2 {
     font-weight: 400;
     font-size: 1.3rem;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .project img {
-    width: 60%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 50px;
     transition: all 0.5s;
-}
-
-.img-container {
-    overflow: hidden;
 }
 
 .preview-project:hover {
@@ -170,18 +166,25 @@ a.social {
     width: 80%;
     margin: auto;
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 25px;
     letter-spacing: 1px;
+}
+
+.container-buttons {
+    margin-bottom: 50px;
 }
 
 .v-code, 
 .v-project {
     display: block;
-    width: 70%;
+    width: 75%;
+    max-width: 250px;
     margin: auto;
     margin-bottom: 10px;
-    padding: 10px
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px 0 rgba(208, 208, 208, 0.5), 0 0 0 1px #E6ECF8;
 }
 
 .v-project {
@@ -411,13 +414,14 @@ footer {
 
       .project p {
           width: 90%;
+          text-align: left;
           font-size: 1rem;
       }
 
       .project img {
           width: 100%;
-          max-width: 400px;
           overflow: hidden;
+          padding: 20px;
       }
 
       .project-description {
@@ -426,7 +430,7 @@ footer {
       }
 
       .container-project {
-          width: 80%;
+          width: 90%;
           margin: auto;
           display: flex;
           justify-content: center;
@@ -440,7 +444,7 @@ footer {
       .v-code,
       .v-project {
           width: 150px;
-          margin: 10px;
+          margin: 5px;
       }
 
       .background-section-3 {
