@@ -157,6 +157,10 @@ a.social {
     transition: all 0.5s;
 }
 
+#api-image {
+    width: 45%;
+}
+
 .preview-project:hover {
     transform: scale(1.1);
     filter: brightness(80%);
@@ -423,6 +427,10 @@ footer {
           overflow: hidden;
           padding: 20px;
       }
+
+      #api-image {
+        width: 80%;
+    }
 
       .project-description {
           text-align: center;
