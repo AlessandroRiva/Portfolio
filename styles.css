@@ -483,7 +483,11 @@ footer {
 
     .project {
         width: 50%;
-        height: 270px;
+        height: 493px;
+    }
+
+    #api-image {
+        width: 85%;
     }
 
     .background-section-1 {
